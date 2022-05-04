@@ -9,19 +9,19 @@ pipeline {
         
         stage('build') { 
             steps {
-               echo 'build successful'
+               echo 'build successfull'
             }
         } 
         
         stage('test') { 
             steps {
-                echo 'test successful'
+                echo 'test successfull'
             }
         }
         
         stage('deploy') { 
             steps {
-               echo 'deploy successful'
+               echo 'deploy successfull'
             }
         } 
     }
